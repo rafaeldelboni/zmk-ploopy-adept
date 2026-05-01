@@ -1,10 +1,10 @@
 parse_config:
   raw_binding_map:
-    "&mkp LCLK": LCLK
-    "&mkp RCLK": RCLK
-    "&mkp MCLK": MCLK
-    "&mkp MB4": MB4
-    "&mkp MB5": MB5
+    "&mkp LCLK": LClick
+    "&mkp RCLK": RClick
+    "&mkp MCLK": MClick
+    "&mkp MB4": Back
+    "&mkp MB5": Fwd
     "&bootloader": BOOT
     "&bt BT_CLR": BTCLR
   zmk_combos: {}

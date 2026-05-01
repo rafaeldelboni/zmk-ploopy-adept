@@ -1,12 +1,12 @@
-layout: {zmk_keyboard: AdeptBLE}
+layout: {dts_layout: boards/shields/AdeptBLE/AdeptBLE.overlay}
 layers:
   Default:
-  - {t: MB4, h: Bluetooth}
-  - {t: MB5, h: Device}
+  - {t: Back, h: Bluetooth}
+  - {t: Fwd, h: Device}
   - {t: Snipe, h: toggle}
-  - {t: MCLK, h: Scroll}
-  - LCLK
-  - RCLK
+  - {t: MClick, h: Scroll}
+  - LClick
+  - RClick
   Bluetooth:
   - {type: held}
   - {t: BT, h: '0'}

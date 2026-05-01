@@ -83,13 +83,13 @@ path.combo {
 <g transform="translate(0, 56)">
 <g transform="translate(49, 98)" class="key keypos-0">
 <rect rx="6" ry="6" x="-47" y="-96" width="94" height="191" class="key"/>
-<text x="0" y="0" class="key tap">MB4</text>
+<text x="0" y="0" class="key tap">Back</text>
 <a href="#Bluetooth">
 <text x="0" y="88" class="key hold layer-activator"><tspan style="font-size: 78%">Bluetooth</tspan></text>
 </a></g>
 <g transform="translate(146, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-47" y="-47" width="94" height="94" class="key"/>
-<text x="0" y="0" class="key tap">MB5</text>
+<text x="0" y="0" class="key tap">Fwd</text>
 <a href="#Device">
 <text x="0" y="39" class="key hold layer-activator">Device</text>
 </a></g>
@@ -101,17 +101,17 @@ path.combo {
 </g>
 <g transform="translate(341, 98)" class="key keypos-3">
 <rect rx="6" ry="6" x="-47" y="-96" width="94" height="191" class="key"/>
-<text x="0" y="0" class="key tap">MCLK</text>
+<text x="0" y="0" class="key tap">MClick</text>
 <a href="#Scroll">
 <text x="0" y="88" class="key hold layer-activator">Scroll</text>
 </a></g>
 <g transform="translate(73, 292)" class="key keypos-4">
 <rect rx="6" ry="6" x="-71" y="-96" width="142" height="191" class="key"/>
-<text x="0" y="0" class="key tap">LCLK</text>
+<text x="0" y="0" class="key tap">LClick</text>
 </g>
 <g transform="translate(317, 292)" class="key keypos-5">
 <rect rx="6" ry="6" x="-71" y="-96" width="142" height="191" class="key"/>
-<text x="0" y="0" class="key tap">RCLK</text>
+<text x="0" y="0" class="key tap">RClick</text>
 </g>
 </g>
 </g>
