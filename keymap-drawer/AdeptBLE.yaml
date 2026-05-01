@@ -17,9 +17,9 @@ layers:
   Device:
   - BOOT
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - OUT TOG
+  - BT CLR ALL
+  - '&sys_reset'
   - BTCLR
   Snipe:
   - {t: ▽, type: trans}
