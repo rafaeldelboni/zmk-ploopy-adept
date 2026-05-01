@@ -52,7 +52,7 @@
       display-name = "Scroll";
       bindings = <
         &trans &trans &to SCRLH &trans
-        &to SCRLH               &trans
+        &trans                  &trans
       >;
     };
     scroll_hold_layer {
