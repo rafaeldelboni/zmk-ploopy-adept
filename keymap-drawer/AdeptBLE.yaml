@@ -1,4 +1,4 @@
-layout: {dts_layout: boards/shields/AdeptBLE/AdeptBLE.overlay}
+layout: {zmk_keyboard: AdeptBLE}
 layers:
   Default:
   - {t: MB4, h: Bluetooth}
