@@ -6,7 +6,7 @@ parse_config:
     "&mkp MB4": Back
     "&mkp MB5": Fwd
     "&bootloader": BOOT
-    "&bt BT_CLR": BTCLR
+    "&sys_reset": RESET
   zmk_combos: {}
 draw_config:
   key_w: 210
