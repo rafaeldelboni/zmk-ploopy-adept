@@ -19,8 +19,8 @@ layers:
   - {type: held}
   - OUT TOG
   - BT CLR ALL
-  - '&sys_reset'
-  - BTCLR
+  - RESET
+  - BT CLR
   Snipe:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
