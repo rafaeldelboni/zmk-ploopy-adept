@@ -1,0 +1,48 @@
+layout: {dts_layout: boards/shields/AdeptBLE/AdeptBLE.overlay}
+layers:
+  Default:
+  - {t: MB4, h: Bluetooth}
+  - {t: MB5, h: Device}
+  - MCLK
+  - {t: RCLK, h: Scroll-Momentary}
+  - LCLK
+  - {t: Snipe, h: Scroll-Momentary}
+  Scroll-Momentary:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Scroll-Keep, h: toggle}
+  - {type: held}
+  - {t: Scroll-Keep, h: toggle}
+  - {t: ▽, type: trans}
+  Scroll-Keep:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: Default, h: toggle}
+  Device:
+  - BOOT
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BTCLR
+  Bluetooth:
+  - {type: held}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  Snipe:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: RCLK, h: Scroll-Momentary}
+  - {t: ▽, type: trans}
+  - {t: Default, h: toggle}
+combos:
+- p: [2, 3]
+  k: RCLK
+  a: top

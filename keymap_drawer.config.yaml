@@ -1,0 +1,16 @@
+parse_config:
+  raw_binding_map:
+    "&mkp LCLK": LCLK
+    "&mkp RCLK": RCLK
+    "&mkp MCLK": MCLK
+    "&mkp MB4": MB4
+    "&mkp MB5": MB5
+    "&bootloader": BOOT
+    "&bt BT_CLR": BTCLR
+  zmk_combos:
+    combo_esc:
+      align: top
+draw_config:
+  key_h: 60
+  combo_h: 20
+  combo_w: 24
