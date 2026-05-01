@@ -6,11 +6,11 @@
 
 // layers
 #define DEFAULT 0
-#define SCRLM 1
-#define SCRLH 2
-#define DEVICE 3
-#define BLTH 4
-#define SNIPE 5
+#define BLTH 1
+#define DEVICE 2
+#define SNIPE 3
+#define SCRLM 4
+#define SCRLH 5
 
 / {
     chosen {

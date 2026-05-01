@@ -3,9 +3,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/outputs.h>
-
 // #include <dt-bindings/zmk/mouse.h>
 
+// layers
 #define DEFAULT 0
 #define BLTH 1
 #define DEVICE 2
@@ -30,14 +30,6 @@
       tapping-term-ms = <150>;
       bindings = <&mo>, <&mkp>;
     };
-    mto: momentary-or-toggle {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      flavor = "hold-preferred";
-      hold-while-undecided;
-      tapping-term-ms = <200>;
-      bindings = <&mo>, <&to>;
-    };
   };
   keymap {
     compatible = "zmk,keymap";
@@ -58,8 +50,8 @@
     device_layer {
       display-name = "Device";
       bindings = <
-        &bootloader &trans &trans &trans
-        &trans                    &bt BT_CLR
+        &bootloader &trans &out OUT_TOG &bt BT_CLR_ALL
+        &sys_reset                      &bt BT_CLR
       >;
     };
     snipe_layer {
