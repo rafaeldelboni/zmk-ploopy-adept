@@ -85,25 +85,25 @@ path.combo {
 <rect rx="6" ry="6" x="-47" y="-96" width="94" height="191" class="key"/>
 <text x="0" y="0" class="key tap">MB4</text>
 <a href="#Bluetooth">
-<text x="0" y="94" class="key hold layer-activator"><tspan style="font-size: 78%">Bluetooth</tspan></text>
+<text x="0" y="88" class="key hold layer-activator"><tspan style="font-size: 78%">Bluetooth</tspan></text>
 </a></g>
 <g transform="translate(146, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-47" y="-47" width="94" height="94" class="key"/>
 <text x="0" y="0" class="key tap">MB5</text>
 <a href="#Device">
-<text x="0" y="45" class="key hold layer-activator">Device</text>
+<text x="0" y="39" class="key hold layer-activator">Device</text>
 </a></g>
 <g transform="translate(244, 49)" class="key keypos-2">
 <rect rx="6" ry="6" x="-47" y="-47" width="94" height="94" class="key"/>
 <a href="#Snipe">
 <text x="0" y="0" class="key tap layer-activator">Snipe</text>
-</a><text x="0" y="45" class="key hold">toggle</text>
+</a><text x="0" y="39" class="key hold">toggle</text>
 </g>
 <g transform="translate(341, 98)" class="key keypos-3">
 <rect rx="6" ry="6" x="-47" y="-96" width="94" height="191" class="key"/>
 <text x="0" y="0" class="key tap">MCLK</text>
 <a href="#Scroll">
-<text x="0" y="94" class="key hold layer-activator">Scroll</text>
+<text x="0" y="88" class="key hold layer-activator">Scroll</text>
 </a></g>
 <g transform="translate(73, 292)" class="key keypos-4">
 <rect rx="6" ry="6" x="-71" y="-96" width="142" height="191" class="key"/>
@@ -124,27 +124,27 @@ path.combo {
 <g transform="translate(146, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-47" y="-47" width="94" height="94" class="key"/>
 <text x="0" y="0" class="key tap">BT</text>
-<text x="0" y="45" class="key hold">0</text>
+<text x="0" y="39" class="key hold">0</text>
 </g>
 <g transform="translate(244, 49)" class="key keypos-2">
 <rect rx="6" ry="6" x="-47" y="-47" width="94" height="94" class="key"/>
 <text x="0" y="0" class="key tap">BT</text>
-<text x="0" y="45" class="key hold">1</text>
+<text x="0" y="39" class="key hold">1</text>
 </g>
 <g transform="translate(341, 98)" class="key keypos-3">
 <rect rx="6" ry="6" x="-47" y="-96" width="94" height="191" class="key"/>
 <text x="0" y="0" class="key tap">BT</text>
-<text x="0" y="94" class="key hold">2</text>
+<text x="0" y="88" class="key hold">2</text>
 </g>
 <g transform="translate(73, 292)" class="key keypos-4">
 <rect rx="6" ry="6" x="-71" y="-96" width="142" height="191" class="key"/>
 <text x="0" y="0" class="key tap">BT</text>
-<text x="0" y="94" class="key hold">3</text>
+<text x="0" y="88" class="key hold">3</text>
 </g>
 <g transform="translate(317, 292)" class="key keypos-5">
 <rect rx="6" ry="6" x="-71" y="-96" width="142" height="191" class="key"/>
 <text x="0" y="0" class="key tap">BT</text>
-<text x="0" y="94" class="key hold">4</text>
+<text x="0" y="88" class="key hold">4</text>
 </g>
 </g>
 </g>
@@ -191,7 +191,7 @@ path.combo {
 <rect rx="6" ry="6" x="-47" y="-47" width="94" height="94" class="key"/>
 <a href="#Default">
 <text x="0" y="0" class="key tap layer-activator">Default</text>
-</a><text x="0" y="45" class="key hold">toggle</text>
+</a><text x="0" y="39" class="key hold">toggle</text>
 </g>
 <g transform="translate(341, 98)" class="key trans keypos-3">
 <rect rx="6" ry="6" x="-47" y="-96" width="94" height="191" class="key trans"/>
@@ -224,7 +224,7 @@ path.combo {
 <text x="0" y="0" class="key tap layer-activator">
 <tspan x="0" dy="-0.9em">Scroll</tspan><tspan x="0" dy="1.2em">Lock</tspan>
 </text>
-</a><text x="0" y="45" class="key hold">toggle</text>
+</a><text x="0" y="39" class="key hold">toggle</text>
 </g>
 <g transform="translate(341, 98)" class="key held keypos-3">
 <rect rx="6" ry="6" x="-47" y="-96" width="94" height="191" class="key held"/>
@@ -254,7 +254,7 @@ path.combo {
 <rect rx="6" ry="6" x="-47" y="-47" width="94" height="94" class="key"/>
 <a href="#Default">
 <text x="0" y="0" class="key tap layer-activator">Default</text>
-</a><text x="0" y="45" class="key hold">toggle</text>
+</a><text x="0" y="39" class="key hold">toggle</text>
 </g>
 <g transform="translate(341, 98)" class="key trans keypos-3">
 <rect rx="6" ry="6" x="-47" y="-96" width="94" height="191" class="key trans"/>
