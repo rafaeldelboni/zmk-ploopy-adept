@@ -9,12 +9,12 @@ parse_config:
     "&bt BT_CLR": BTCLR
   zmk_combos: {}
 draw_config:
-  key_w: 140
-  key_h: 130
+  key_w: 210
+  key_h: 195
   split_gap: 30
   combo_w: 36
   combo_h: 28
-  n_columns: 3
+  n_columns: 2
   inner_pad_w: 2
   inner_pad_h: 2
   outer_pad_w: 30
