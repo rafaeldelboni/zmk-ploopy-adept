@@ -19,6 +19,7 @@ draw_config:
   inner_pad_h: 2
   outer_pad_w: 30
   outer_pad_h: 56
+  small_pad: 8
   append_colon_to_layer_header: false
   svg_style: |
     svg path {
