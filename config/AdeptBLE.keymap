@@ -7,11 +7,11 @@
 // #include <dt-bindings/zmk/mouse.h>
 
 #define DEFAULT 0
-#define SCRLM 1
-#define SCRLH 2
-#define DEVICE 3
-#define BLTH 4
-#define SNIPE 5
+#define BLTH 1
+#define DEVICE 2
+#define SNIPE 3
+#define SCRLM 4
+#define SCRLH 5
 
 / {
   behaviors {
@@ -48,18 +48,11 @@
         &mkp LCLK                                    &mkp RCLK
       >;
     };
-    scroll_tap_layer {
-      display-name = "Scroll";
+    bluetooth_layer {
+      display-name = "Bluetooth";
       bindings = <
-        &trans &trans &to SCRLH &trans
-        &trans                  &trans
-      >;
-    };
-    scroll_hold_layer {
-      display-name = "Scroll Lock";
-      bindings = <
-        &trans &trans &to DEFAULT &trans
-        &trans                    &trans
+        &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2
+        &bt BT_SEL 3                     &bt BT_SEL 4
       >;
     };
     device_layer {
@@ -69,15 +62,22 @@
         &trans                    &bt BT_CLR
       >;
     };
-    bluetooth_layer {
-      display-name = "Bluetooth";
-      bindings = <
-        &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2
-        &bt BT_SEL 3                     &bt BT_SEL 4
-      >;
-    };
     snipe_layer {
       display-name = "Snipe";
+      bindings = <
+        &trans &trans &to DEFAULT &trans
+        &trans                    &trans
+      >;
+    };
+    scroll_tap_layer {
+      display-name = "Scroll";
+      bindings = <
+        &trans &trans &to SCRLH &trans
+        &trans                  &trans
+      >;
+    };
+    scroll_hold_layer {
+      display-name = "Scroll Lock";
       bindings = <
         &trans &trans &to DEFAULT &trans
         &trans                    &trans

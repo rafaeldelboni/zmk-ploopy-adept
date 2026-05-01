@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: AdeptBLE}
+layout: {dts_layout: boards/shields/AdeptBLE/AdeptBLE.overlay}
 layers:
   Default:
   - {t: MB4, h: Bluetooth}
@@ -7,6 +7,27 @@ layers:
   - {t: MCLK, h: Scroll}
   - LCLK
   - RCLK
+  Bluetooth:
+  - {type: held}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  Device:
+  - BOOT
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BTCLR
+  Snipe:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -15,27 +36,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Scroll Lock:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Default, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Device:
-  - BOOT
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BTCLR
-  Bluetooth:
-  - {type: held}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  Snipe:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Default, h: toggle}
