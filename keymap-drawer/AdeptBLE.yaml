@@ -12,7 +12,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: Scroll Lock, h: toggle}
   - {type: held}
-  - {t: Scroll Lock, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Scroll Lock:
   - {t: ▽, type: trans}

@@ -137,13 +137,9 @@ path.combo {
 <g transform="translate(228, 65)" class="key held keypos-3">
 <rect rx="6" ry="6" x="-30" y="-63" width="61" height="126" class="key held"/>
 </g>
-<g transform="translate(49, 195)" class="key keypos-4">
-<rect rx="6" ry="6" x="-47" y="-63" width="94" height="126" class="key"/>
-<a href="#Scroll-Lock">
-<text x="0" y="0" class="key tap layer-activator">
-<tspan x="0" dy="-0.9em">Scroll</tspan><tspan x="0" dy="1.2em">Lock</tspan>
-</text>
-</a><text x="0" y="61" class="key hold">toggle</text>
+<g transform="translate(49, 195)" class="key trans keypos-4">
+<rect rx="6" ry="6" x="-47" y="-63" width="94" height="126" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(211, 195)" class="key trans keypos-5">
 <rect rx="6" ry="6" x="-47" y="-63" width="94" height="126" class="key trans"/>
