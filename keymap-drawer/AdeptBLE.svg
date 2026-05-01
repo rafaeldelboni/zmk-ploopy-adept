@@ -97,9 +97,8 @@ path.combo {
 <rect rx="6" ry="6" x="-30" y="-30" width="61" height="61" class="key"/>
 <a href="#Snipe">
 <text x="0" y="0" class="key tap layer-activator">Snipe</text>
-</a><a href="#Scroll">
-<text x="0" y="28" class="key hold layer-activator">Scroll</text>
-</a></g>
+</a><text x="0" y="28" class="key hold">toggle</text>
+</g>
 <g transform="translate(228, 65)" class="key keypos-3">
 <rect rx="6" ry="6" x="-30" y="-63" width="61" height="126" class="key"/>
 <text x="0" y="0" class="key tap">MCLK</text>
@@ -127,17 +126,16 @@ path.combo {
 <rect rx="6" ry="6" x="-30" y="-30" width="61" height="61" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(162, 32)" class="key held keypos-2">
-<rect rx="6" ry="6" x="-30" y="-30" width="61" height="61" class="key held"/>
+<g transform="translate(162, 32)" class="key keypos-2">
+<rect rx="6" ry="6" x="-30" y="-30" width="61" height="61" class="key"/>
 <a href="#Scroll-Lock">
-<text x="0" y="0" class="key held tap layer-activator">
+<text x="0" y="0" class="key tap layer-activator">
 <tspan x="0" dy="-0.9em">Scroll</tspan><tspan x="0" dy="1.2em">Lock</tspan>
 </text>
-</a><text x="0" y="28" class="key held hold">toggle</text>
+</a><text x="0" y="28" class="key hold">toggle</text>
 </g>
-<g transform="translate(228, 65)" class="key trans keypos-3">
-<rect rx="6" ry="6" x="-30" y="-63" width="61" height="126" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(228, 65)" class="key held keypos-3">
+<rect rx="6" ry="6" x="-30" y="-63" width="61" height="126" class="key held"/>
 </g>
 <g transform="translate(49, 195)" class="key keypos-4">
 <rect rx="6" ry="6" x="-47" y="-63" width="94" height="126" class="key"/>

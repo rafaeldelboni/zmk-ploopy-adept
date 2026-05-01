@@ -3,15 +3,15 @@ layers:
   Default:
   - {t: MB4, h: Bluetooth}
   - {t: MB5, h: Device}
-  - {t: Snipe, h: Scroll}
+  - {t: Snipe, h: toggle}
   - {t: MCLK, h: Scroll}
   - LCLK
   - RCLK
   Scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Scroll Lock, h: toggle, type: held}
-  - {t: ▽, type: trans}
+  - {t: Scroll Lock, h: toggle}
+  - {type: held}
   - {t: Scroll Lock, h: toggle}
   - {t: ▽, type: trans}
   Scroll Lock:
