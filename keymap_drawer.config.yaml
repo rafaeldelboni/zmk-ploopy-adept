@@ -11,6 +11,94 @@ parse_config:
     combo_esc:
       align: top
 draw_config:
-  key_h: 60
-  combo_h: 20
-  combo_w: 24
+  key_w: 60
+  key_h: 56
+  split_gap: 30
+  combo_w: 28
+  combo_h: 22
+  n_columns: 2
+  inner_pad_w: 2
+  inner_pad_h: 2
+  outer_pad_w: 30
+  outer_pad_h: 56
+  append_colon_to_layer_header: false
+  svg_style: |
+    svg path {
+        fill: inherit;
+    }
+    svg.keymap {
+        font-family: Menlo,SFMono-Regular,Consolas,Liberation Mono,monospace;
+        font-size: 14px;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        fill: #FFF;
+        background: #141F26;
+    }
+    rect.key {
+        fill: #72878C;
+        stroke: #5A6E73;
+        stroke-width: 1;
+    }
+    rect.side {
+        filter: brightness(90%);
+    }
+    rect.combo, rect.combo-separate {
+        fill: #54929b;
+        stroke: #007772;
+    }
+    rect.held, rect.combo.held {
+        stroke: #A65437;
+        fill: #BF9278;
+    }
+    rect.ghost, rect.combo.ghost {
+        stroke-dasharray: 4, 4;
+        stroke-width: 2;
+    }
+    text {
+        text-anchor: middle;
+        dominant-baseline: middle;
+    }
+    text.label {
+        text-anchor: start;
+        stroke: white;
+        paint-order: stroke;
+    }
+    text.combo, text.hold, text.shifted, text.left, text.right, text.tl, text.tr, text.bl, text.br {
+        font-size: 11px;
+    }
+    text.hold, text.bl, text.br {
+        text-anchor: middle;
+        dominant-baseline: auto;
+    }
+    text.shifted, text.tl, text.tr {
+        text-anchor: middle;
+        dominant-baseline: hanging;
+    }
+    text.left, text.tl, text.bl {
+        text-anchor: start;
+    }
+    text.right, text.tr, text.br {
+        text-anchor: end;
+    }
+    text.layer-activator {
+        text-decoration: underline;
+    }
+    text.combo.hold, text.combo.shifted, text.combo.left, text.combo.right {
+        font-size: 8px;
+    }
+    text.trans {
+        fill: #2C3A40;
+    }
+    path.combo {
+        stroke-width: 1;
+        stroke: gray;
+        fill: none;
+    }
+    .icon-tabler > path {
+        fill: inherit;
+        stroke: inherit;
+        stroke-width: 2;
+    }
+    .icon-tabler > path[stroke="none"][fill="none"] {
+        visibility: hidden;
+    }
