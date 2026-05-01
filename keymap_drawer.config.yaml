@@ -7,9 +7,7 @@ parse_config:
     "&mkp MB5": MB5
     "&bootloader": BOOT
     "&bt BT_CLR": BTCLR
-  zmk_combos:
-    combo_esc:
-      align: top
+  zmk_combos: {}
 draw_config:
   key_w: 140
   key_h: 130
