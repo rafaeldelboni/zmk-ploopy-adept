@@ -1,20 +1,20 @@
-layout: {zmk_keyboard: AdeptBLE}
+layout: {dts_layout: boards/shields/AdeptBLE/AdeptBLE.overlay}
 layers:
   Default:
   - {t: MB4, h: Bluetooth}
   - {t: MB5, h: Device}
   - MCLK
-  - {t: RCLK, h: Scroll-Momentary}
+  - {t: RCLK, h: Scroll}
   - LCLK
-  - {t: Snipe, h: Scroll-Momentary}
-  Scroll-Momentary:
+  - {t: Snipe, h: Scroll}
+  Scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Scroll-Keep, h: toggle}
+  - {t: Scroll Lock, h: toggle}
   - {type: held}
-  - {t: Scroll-Keep, h: toggle}
+  - {t: Scroll Lock, h: toggle}
   - {t: ▽, type: trans}
-  Scroll-Keep:
+  Scroll Lock:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -39,7 +39,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RCLK, h: Scroll-Momentary}
+  - {t: RCLK, h: Scroll}
   - {t: ▽, type: trans}
   - {t: Default, h: toggle}
 combos:
