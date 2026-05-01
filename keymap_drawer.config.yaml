@@ -11,12 +11,12 @@ parse_config:
     combo_esc:
       align: top
 draw_config:
-  key_w: 120
-  key_h: 112
+  key_w: 140
+  key_h: 130
   split_gap: 30
-  combo_w: 40
-  combo_h: 32
-  n_columns: 1
+  combo_w: 36
+  combo_h: 28
+  n_columns: 3
   inner_pad_w: 2
   inner_pad_h: 2
   outer_pad_w: 30
